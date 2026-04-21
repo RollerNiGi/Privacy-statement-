@@ -1,1 +1,58 @@
-paper nook
+Paper Nook Privacy Policy
+
+Last updated: April 21, 2026
+
+Paper Nook ("the App") is designed to help you write and keep notes in a local, offline-first experience. This Privacy Policy explains what information the App handles, how it is used, and what choices you have.
+
+1. Information the App Stores
+
+The App stores the following information on your device:
+
+- Notes you create, including note text and the paper, ink, and size styles you choose
+- App preferences, such as language, theme, card style, sound settings, haptic settings, and default writing selections
+- Purchase status for Paper Nook Collector's Edition, as provided through Apple's in-app purchase system
+
+Your note content is stored locally on your device inside the app's sandboxed storage.
+
+2. Information the App Does Not Collect
+
+Paper Nook does not require you to create an account.
+Paper Nook does not maintain its own cloud service for syncing your notes.
+Paper Nook does not sell your personal information.
+Paper Nook does not include third-party advertising SDKs.
+Paper Nook does not use third-party analytics or behavior-tracking tools.
+
+3. In-App Purchases
+
+If you choose to purchase Paper Nook Collector's Edition, the purchase is processed by Apple through StoreKit and the App Store. The developer does not receive your full payment card number or other full payment credentials.
+
+The App may store a local flag on your device to remember whether premium content has been unlocked. Purchase validation and restoration are handled through Apple's systems.
+
+4. Sharing
+
+When you choose to share a note, the App creates a shareable representation of that note on your device and passes it to Apple's system share sheet or the destination you select. Sharing only happens when you explicitly choose to do so.
+
+5. Data Retention
+
+Your notes and preferences remain on your device until you delete them, remove the App, or clear the data as part of uninstalling the App. Temporary files created for sharing may be removed by the App after sharing or by the system over time.
+
+6. Children's Privacy
+
+Paper Nook is not directed to children under 13, and the App does not knowingly collect personal information from children through its own services.
+
+7. Your Choices
+
+You can:
+
+- Delete notes inside the App
+- Turn sound and haptic feedback on or off in settings
+- Choose whether to make an in-app purchase
+- Remove the App from your device to delete locally stored app data, subject to standard iOS behavior
+
+8. Security
+
+Paper Nook relies on iOS app sandboxing and standard Apple platform protections to store local app data. No method of storage or transmission is guaranteed to be perfectly secure, but the App is designed to minimize data exposure by keeping core note content on-device.
+
+9. Changes to This Privacy Policy
+
+This Privacy Policy may be updated from time to time. If the policy changes, the updated version will be published with a new "Last updated" date.paper nook
