@@ -1,0 +1,120 @@
+Nocturne LoFi Privacy Policy
+
+Effective date: July 30, 2026
+Last updated: July 30, 2026
+
+Nocturne LoFi (“the App”) respects your privacy. This policy explains how the App handles data and the choices available to you.
+
+1. Summary
+
+The App:
+
+Does not require a developer-operated account;
+Does not include advertising, cross-app tracking, or data-broker services;
+Does not integrate third-party behavioral analytics, attribution, or crash-reporting SDKs;
+Does not operate a developer server that receives user data;
+Does not sell, rent, or share your data for advertising or marketing;
+Generates and processes audio primarily on your device.
+2. Data handled by the App
+
+2.1 Data stored locally
+
+To provide its features and restore your settings, the App stores the following information in its local sandbox or shared App Group:
+
+Scene selection, scene order, and interface preferences;
+Language, theme, autoplay, and scene-preview settings;
+Favorite scenes, generation seeds, BPM, tone, and other music parameters;
+Recent playback and focus-timer state;
+AUv3 chain configuration, component identifiers, bypass state, and mix parameters;
+Current scene information needed by widgets.
+This information is used to restore App functionality. It is not used to identify you, build advertising profiles, or track you across apps or websites.
+
+2.2 iCloud sync
+
+When your device is signed in to an Apple Account and iCloud is available to the App, Apple’s iCloud key-value store is used to sync:
+
+Favorite scenes and their music parameters;
+Scene order;
+Selected preferences, including language, theme, autoplay, and scene-preview settings.
+The App does not use this feature to upload exported audio, recent playback sessions, focus-timer state, or AUv3 chain configuration to iCloud.
+
+The association with your Apple Account and the transmission, storage, and security of iCloud data are provided by Apple and governed by Apple’s privacy policy and service terms. The App operator does not operate the iCloud infrastructure and does not use synchronized data for advertising, tracking, or analytics.
+
+2.3 Device-motion data
+
+Immersive Mode may read device-attitude information to create a subtle parallax effect. Motion data is processed in real time on the device and is not stored, uploaded, or used to identify you. Reading stops when the effect or relevant screen is no longer active.
+
+2.4 Audio generation, export, and sharing
+
+Music and ambience are generated locally. The App does not use the microphone to record you and does not upload generated audio or generation parameters to a developer server.
+
+When you choose to export audio, the App creates a file in its temporary local directory. During later export cleanup, the App attempts to remove temporary export files older than 24 hours. Copies that you save or send through the system share sheet are handled by the destination app or service under its own privacy policy.
+
+2.5 AUv3 plug-ins
+
+The App locally scans AUv3 components registered on the device and can store an AUv3 chain configuration locally. It does not upload your installed plug-in list to the developer.
+
+Third-party AUv3 plug-ins and host apps may have their own data practices. Please review their privacy policies because the App cannot control how third-party plug-ins or hosts process data.
+
+2.6 System features
+
+To support background playback, widgets, Now Playing, the Lock Screen, and Dynamic Island, the App provides iOS with necessary information such as the current scene name, playback status, BPM, and timer state. This information is used to present system interfaces on your device and is not sent to a developer server by the App.
+
+Downloads, purchases, payments, refunds, and App Store diagnostics are handled by Apple. The App does not receive your full payment-card details. Depending on your system privacy settings, Apple may provide the developer with aggregated sales, performance, or diagnostic information. Apple collects and provides this information under its own privacy policy.
+
+3. Data the App does not actively collect
+
+The App does not actively collect or upload:
+
+Your name, phone number, email address, or postal address;
+Contacts, photos, calendars, health data, or precise location;
+Microphone recordings or voice content;
+Advertising identifiers, cross-app activity, or browsing history;
+Device identifiers used for advertising profiles;
+Usage analytics or crash logs actively uploaded by code integrated into the App.
+If you contact the operator through email, an App Store review, GitHub, or another channel, the information you provide is used only to answer your inquiry, feedback, or support request and is retained only as long as needed to complete support, meet necessary legal obligations, or resolve disputes. You may use the email below to request deletion of support correspondence actually held by the operator. Those channels may be governed by their own privacy policies.
+
+4. Purposes of processing
+
+The information described above is handled only to:
+
+Provide music generation, playback, export, and focus-timer features;
+Save and restore scenes, favorites, settings, and AUv3 configurations;
+Sync supported content across your devices through iCloud;
+Present widgets, Lock Screen playback information, and other system playback interfaces;
+Maintain App stability, security, and user support.
+5. Sharing and disclosure
+
+The App does not sell personal data or provide it to advertising networks or data brokers. Information may be processed by another service only when:
+
+Apple provides iCloud sync that is available to you;
+You intentionally share an audio file with an app or service you select;
+You use a third-party AUv3 plug-in or host;
+Disclosure is legally required, limited to information the operator actually possesses and is required by law to disclose.
+At present, we do not engage a service provider other than Apple platform services to process App data on our behalf. If this changes, we will require the provider to apply protections appropriate under this policy and applicable law, and we will update this policy. Share destinations, AUv3 plug-ins, and hosts that you choose are not acting on our behalf.
+
+6. Retention, deletion, and your choices
+
+Local settings and playback state generally remain until you change or delete the relevant content or uninstall the App.
+You can delete favorites in the App and manage the App’s access to iCloud in system settings.
+Uninstalling the App removes local App data from that device. Content previously synchronized to iCloud may remain in your Apple Account and may sync again after reinstallation.
+You can manage relevant cloud data through your Apple Account and iCloud settings or contact Apple for assistance. Because the operator cannot access your Apple Account, the operator generally cannot directly view or delete iCloud data on your behalf.
+Audio copies saved or sent through the share sheet must be deleted by you from the destination location or third-party service.
+To request access, correction, or deletion of information actually held by the operator, contact us using the email address below.
+
+7. Security
+
+The App minimizes the information it handles and uses the iOS app sandbox, App Groups, and Apple-provided iCloud capabilities for necessary storage. No storage or transmission method can guarantee absolute security, but we take reasonable safeguards appropriate to the nature of the information.
+
+8. Children’s privacy
+
+The App does not ask users to provide identity information and does not knowingly collect children’s personal data. If you believe a child has submitted personal data through a support channel, contact us and we will take reasonable steps after verification.
+
+9. International processing
+
+When you use iCloud, the App Store, or another Apple service, Apple may process related information in different countries or regions under its terms and privacy policy. Third-party sharing services, AUv3 plug-ins, or host apps you choose may also process data in other regions.
+
+10. Changes to this policy
+
+We may update this policy to reflect feature, legal, or service changes. The “Last updated” date will be revised. If a change materially affects your rights or how information is handled, we will provide notice through the App, release notes, or another appropriate method.
+
