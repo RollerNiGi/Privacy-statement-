@@ -1,0 +1,57 @@
+BEEPBENTO PRIVACY POLICY
+
+Effective date: August 26, 2026
+Last updated: August 26, 2026
+
+This Privacy Policy applies to the BeepBento iOS app and its bundled BeepBento AUv3 audio plug-ins (collectively, the “App”), provided by XN Studio (“we,” “us,” or “our”). We designed the App around data minimization and on-device processing.
+
+1. Personal Data Collection
+
+The App does not require an account or sign-in. We do not collect, upload, store, or analyze your personal data on servers controlled by us.
+
+The App does not include advertising SDKs, third-party analytics SDKs, or cross-app tracking technology. We do not create user profiles, sell personal data, or use personal data for advertising or marketing.
+
+2. Data Processed on Your Device
+
+The following information may be stored or processed locally to provide App functionality:
+
+1. App preferences, including appearance, language, haptic feedback settings, and identifiers for favorited sounds.
+2. Audio you select. The App accesses an audio file only after you choose it through Apple’s Files picker, and uses it for local preview, audio processing, and export.
+3. Exported audio. Beats and processed audio are first rendered to the App’s temporary directory, then saved or shared only after you use the system export interface.
+4. AUv3 data. Audio, MIDI events, parameter values, and transport information supplied by a host app are processed locally in real time to generate sound or effects.
+
+The App does not upload this data to our servers. If you choose to share an exported file through a system sharing feature, the receiving app or service processes that file under its own privacy policy.
+
+3. Device Permissions
+
+The App uses Apple’s system file picker to access audio files that you explicitly select. Unless a future version explains otherwise and requests the required permission, the App does not request access to your microphone, camera, photos, contacts, location, health data, or advertising tracking.
+
+The App uses system audio services to play, preview, and process sound. It does not record ambient audio.
+
+4. Third-Party Services and Sharing
+
+The App currently contains no third-party advertising, analytics, crash-reporting, cloud-storage, or social-login services. We do not actively share user data with third parties.
+
+Apple may process App Store downloads, purchase history, diagnostics, or crash information according to your device settings and Apple’s own policies. Apple independently controls that processing, and the App does not collect or access that information. Please refer to Apple’s Privacy Policy for details.
+
+5. Retention and Deletion
+
+1. App preferences remain on your device until you clear the relevant data, reset the App, or delete the App.
+2. You can clear saved favorites from the App’s Settings screen.
+3. The App accesses imported audio only while needed for processing. You continue to manage the original file in Files or its original storage location.
+4. Temporary exports are managed by the App and the operating system. Files you save or share must be deleted by you from their destination or receiving app.
+5. Deleting the App normally removes preferences and temporary data stored in its sandbox, but does not remove exports you previously saved to Files or another app.
+
+Because we do not store personal data on our servers, there is generally no remote account data for us to retrieve, correct, or delete.
+
+6. Children’s Privacy
+
+The App does not knowingly collect personal data from children. It provides no account system, advertising, social interaction, or server-side data collection, and does not create profiles based on age.
+
+7. Data Security
+
+The App relies on the iOS app sandbox, the system file picker, and Apple platform security features to limit file access. Although no technology can guarantee absolute security, we continue to follow data-minimization and on-device-processing principles.
+
+8. Changes to This Policy
+
+If a future version adds network services, accounts, analytics, advertising, or other features that change how data is handled, we will update this policy and the privacy disclosures in App Store Connect, and request permission where required. The revised policy will show its new effective date.
