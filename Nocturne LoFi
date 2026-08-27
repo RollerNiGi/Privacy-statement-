@@ -4,7 +4,6 @@ Effective date: July 30, 2026
 Last updated: July 30, 2026
 
 Nocturne LoFi (“the App”) respects your privacy. This policy explains how the App handles data and the choices available to you.
-
 1. Summary
 
 The App:
@@ -26,8 +25,11 @@ Language, theme, autoplay, and scene-preview settings;
 Favorite scenes, generation seeds, BPM, tone, and other music parameters;
 Recent playback and focus-timer state;
 AUv3 chain configuration, component identifiers, bypass state, and mix parameters;
+Copies of audio you intentionally import into the AUv3 Shared Library, together with necessary metadata such as display name, duration, sample rate, channel count, and import date;
+Custom scenes you create, including the scene name, base scene, BPM, generated-audio mix, audio-layer references, and each layer’s volume, pan, playback speed, and mute setting;
+Copies of images you select as custom-scene covers, built-in cover identifiers, and clock-placement settings;
 Current scene information needed by widgets.
-This information is used to restore App functionality. It is not used to identify you, build advertising profiles, or track you across apps or websites.
+This information is used to restore settings, playback, favorites, custom scenes, AUv3 workflows, and widgets. It is not used to identify you, build advertising profiles, or track you across apps or websites.
 
 2.2 iCloud sync
 
@@ -36,7 +38,7 @@ When your device is signed in to an Apple Account and iCloud is available to the
 Favorite scenes and their music parameters;
 Scene order;
 Selected preferences, including language, theme, autoplay, and scene-preview settings.
-The App does not use this feature to upload exported audio, recent playback sessions, focus-timer state, or AUv3 chain configuration to iCloud.
+The App does not use this feature to upload exported audio, imported user audio, custom scenes or their cover images, recent playback sessions, focus-timer state, or AUv3 chain configuration to iCloud. If you intentionally choose a file from iCloud Drive or another file provider, that provider handles the source file under its own privacy policy.
 
 The association with your Apple Account and the transmission, storage, and security of iCloud data are provided by Apple and governed by Apple’s privacy policy and service terms. The App operator does not operate the iCloud infrastructure and does not use synchronized data for advertising, tracking, or analytics.
 
@@ -44,17 +46,23 @@ The association with your Apple Account and the transmission, storage, and secur
 
 Immersive Mode may read device-attitude information to create a subtle parallax effect. Motion data is processed in real time on the device and is not stored, uploaded, or used to identify you. Reading stops when the effect or relevant screen is no longer active.
 
-2.4 Audio generation, export, and sharing
+2.4 User audio, custom covers, export, and sharing
 
 Music and ambience are generated locally. The App does not use the microphone to record you and does not upload generated audio or generation parameters to a developer server.
 
+When you intentionally import audio through the system file picker, the App reads only the file you select, validates and decodes it on your device, and copies it into the shared App Group used by Nocturne LoFi and its AUv3 extensions. The App does not retain ongoing access to the source file and does not upload the audio to the operator.
+
+When you select an image for a custom-scene cover through the system photo picker, the App receives only the image you explicitly select. It resizes and converts the image to a local JPEG copy stored in the App Group. The App does not scan or upload other items in your photo library.
+
 When you choose to export audio, the App creates a file in its temporary local directory. During later export cleanup, the App attempts to remove temporary export files older than 24 hours. Copies that you save or send through the system share sheet are handled by the destination app or service under its own privacy policy.
+
+If you choose “Add to AUv3 Shared Library,” a persistent copy of the exported audio is stored in the App Group until you delete that audio in the App or uninstall the App.
 
 2.5 AUv3 plug-ins
 
-The App locally scans AUv3 components registered on the device and can store an AUv3 chain configuration locally. It does not upload your installed plug-in list to the developer.
+The App locally scans AUv3 components registered on the device, can display a custom interface supplied by a plug-in, and can store an AUv3 chain configuration locally. It does not upload your installed plug-in list to the developer.
 
-Third-party AUv3 plug-ins and host apps may have their own data practices. Please review their privacy policies because the App cannot control how third-party plug-ins or hosts process data.
+When you intentionally add a third-party AUv3 effect to the chain, the App routes the real-time audio signal to that plug-in for processing on your device. Third-party AUv3 plug-ins and host apps may have their own data practices. Please review their privacy policies because the App cannot control how a third-party plug-in, its custom interface, or a host app processes data.
 
 2.6 System features
 
@@ -67,8 +75,9 @@ Downloads, purchases, payments, refunds, and App Store diagnostics are handled b
 The App does not actively collect or upload:
 
 Your name, phone number, email address, or postal address;
-Contacts, photos, calendars, health data, or precise location;
+Contacts, photo-library content you did not select, calendars, health data, or precise location;
 Microphone recordings or voice content;
+Audio you import, custom cover images you select, or custom scenes you create. These remain on the device and in the App Group and are not uploaded to the operator;
 Advertising identifiers, cross-app activity, or browsing history;
 Device identifiers used for advertising profiles;
 Usage analytics or crash logs actively uploaded by code integrated into the App.
@@ -80,6 +89,7 @@ The information described above is handled only to:
 
 Provide music generation, playback, export, and focus-timer features;
 Save and restore scenes, favorites, settings, and AUv3 configurations;
+Manage audio, custom covers, and custom scenes you intentionally add, and share this content between Nocturne LoFi and its AUv3 extensions;
 Sync supported content across your devices through iCloud;
 Present widgets, Lock Screen playback information, and other system playback interfaces;
 Maintain App stability, security, and user support.
@@ -89,14 +99,16 @@ The App does not sell personal data or provide it to advertising networks or dat
 
 Apple provides iCloud sync that is available to you;
 You intentionally share an audio file with an app or service you select;
-You use a third-party AUv3 plug-in or host;
+You intentionally select content through the system file or photo picker, in which case Apple or your selected file provider supplies that content;
+You use a third-party AUv3 plug-in or host, in which case the real-time audio signal may be processed on the device by the relevant third-party component;
 Disclosure is legally required, limited to information the operator actually possesses and is required by law to disclose.
 At present, we do not engage a service provider other than Apple platform services to process App data on our behalf. If this changes, we will require the provider to apply protections appropriate under this policy and applicable law, and we will update this policy. Share destinations, AUv3 plug-ins, and hosts that you choose are not acting on our behalf.
 
 6. Retention, deletion, and your choices
 
 Local settings and playback state generally remain until you change or delete the relevant content or uninstall the App.
-You can delete favorites in the App and manage the App’s access to iCloud in system settings.
+You can delete favorites, shared audio, and custom scenes in the App. When you delete a custom scene, the App also attempts to delete its custom cover copy.
+You can manage the App’s access to iCloud in system settings.
 Uninstalling the App removes local App data from that device. Content previously synchronized to iCloud may remain in your Apple Account and may sync again after reinstallation.
 You can manage relevant cloud data through your Apple Account and iCloud settings or contact Apple for assistance. Because the operator cannot access your Apple Account, the operator generally cannot directly view or delete iCloud data on your behalf.
 Audio copies saved or sent through the share sheet must be deleted by you from the destination location or third-party service.
@@ -117,5 +129,4 @@ When you use iCloud, the App Store, or another Apple service, Apple may process 
 10. Changes to this policy
 
 We may update this policy to reflect feature, legal, or service changes. The “Last updated” date will be revised. If a change materially affects your rights or how information is handled, we will provide notice through the App, release notes, or another appropriate method.
-
 - Email: sunnyxblss@outlook.com
