@@ -1,0 +1,36 @@
+Reelmoire Privacy Policy
+
+Last updated: September 28, 2026
+
+This policy applies to the Reelmoire app and its AUv3 extensions on iPhone, iPad, and Mac.
+
+What the app handles
+
+Reelmoire processes the audio and MIDI files you choose in order to play, transform, preview, transcribe, and export them. Processing takes place on your device. When you import a file from Files or another file provider, the app makes a local working copy so it can continue processing after the file picker closes.
+
+The app also stores your named presets, effect settings, and interface preferences, such as language and appearance. Presets are saved on your device. Interface preferences are stored on your device.
+
+Reelmoire does not require a Reelmoire account. The app does not send your media, presets, or usage activity to a server operated by us. It does not include advertising, cross-app tracking, or third-party analytics SDKs.
+
+iCloud
+
+If iCloud is available on your device, Reelmoire uses Apple's iCloud key-value storage to sync your named presets and their effect settings across your devices. When you export audio or MIDI, the app keeps a local copy and also adds a copy to iCloud Drive / Reelmoire / Exports when iCloud Drive is available. Apple handles the storage and transfer of this iCloud data under your Apple Account. We do not operate the iCloud service or receive your iCloud files on our own servers. See Apple's Privacy Policy（https://www.apple.com/legal/privacy/） for information about Apple's practices.
+
+If iCloud is unavailable, local playback, processing, and export remain available. You can manage iCloud access in your device's system settings.
+
+Sharing and other apps
+
+Files you select from a third-party file provider are subject to that provider's practices. Reelmoire accesses the files you select for the requested operation. If you share an export, the destination you choose receives the shared file and handles it under its own privacy practices.
+
+When you use a Reelmoire AUv3 extension in a compatible host app, the host supplies audio or MIDI to the extension for processing. The host app's handling of your project is governed by the host's own privacy policy.
+
+The Technical Support link opens an external website in your browser. Visiting that site may be subject to the website's own privacy practices.
+
+Retention and deletion
+
+Local working files, exports, presets, and settings may remain in app storage until you remove them or remove the app's data. You can delete a named preset in the app; if iCloud preset sync is active, that deletion is synced to your other devices. You can delete cloud exports in the Files app from iCloud Drive / Reelmoire / Exports. Removing the app from a device does not necessarily delete files already stored in iCloud Drive or shared with another app.
+
+Changes and contact
+
+We may update this policy when Reelmoire's features or data practices change. The date at the top shows when it was last updated. For privacy questions, contact the developer through the Reelmoire support site（https://rollernigi.github.io/）.
+
