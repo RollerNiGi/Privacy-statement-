@@ -1,0 +1,35 @@
+BANANA-1 Privacy Policy
+
+Effective date: October 1, 2026
+Developer: [Enter the seller name shown in App Store Connect]
+Contact email: [Enter a public support email address]
+
+This policy applies to the BANANA-1 iOS app and its bundled AUv3 instrument extension.
+
+1. Information processed by the app
+
+To support playing and saved performances, the app processes touch and MIDI performance events, performance control values derived from device motion, sound settings, performance timing, take names, and preferences such as language, touch hints, and shake control on your device. Recording stores performance events and parameter data. When you export audio, the app generates the audio file from that data on your device. The app does not use the microphone to record ambient sound.
+
+2. Where information is stored
+
+Performance takes are stored as JSON files in the app’s local storage. Language and touch-hint preferences are stored in the app’s settings on your device. The current version has no account, advertising, third-party analytics SDK, or developer-operated cloud sync. The app does not independently upload your takes or these preferences to the developer.
+
+3. Exports and sharing you choose
+
+When you export, the app creates an audio, MIDI, or performance-data file in the device’s temporary directory and presents the iOS share interface. A file is provided to another app or service only when you choose to share, save, or send it. The recipient’s privacy policy governs its copy. Export files in the app’s temporary directory may remain until the system clears temporary files or you uninstall the app.
+
+4. AUv3 hosts
+
+When you load the BANANA-1 AUv3 instrument in another music app, the host may send MIDI to the plug-in or record, save, and export its output. The host’s handling of this content depends on that app and your actions. Please consult the host’s privacy policy.
+
+5. Retention and deletion
+
+Saved takes remain on your device until you confirm deletion in the app’s history list or uninstall the app. Deleting a take removes its file from the app’s storage. Copies already exported elsewhere must be managed or deleted at their destination. Data in device backups depends on your system backup settings and Apple’s applicable services.
+
+6. Permissions and security
+
+The current version does not request access to the microphone, location, contacts, or photo library. The app relies on iOS local app storage protections. Please choose carefully where you share exported files.
+
+7. Updates and contact
+
+If a future version adds cloud sync, analytics, accounts, or other data practices, we will update this policy and the App Store privacy information. For questions about this policy or your local data, contact the developer at the address above. If you email us, we use the information you provide to handle and reply to your request.
