@@ -1,86 +1,73 @@
 INKYTUNE PRIVACY POLICY
 
-Effective date: September 16, 2026
+Effective date: October 5, 2026
 
-This Privacy Policy explains how InkyTune (the “App”), including its Doodle Synth and Doodle FX Audio Unit extensions, handles information. InkyTune is designed to create and process music locally on your iPhone or iPad.
+This Privacy Policy explains how InkyTune and its Doodle Synth, Doodle FX, and Doodle MIDI Audio Unit extensions handle information on iPhone and iPad.
 
-1. SUMMARY
+1. OVERVIEW
 
-InkyTune does not collect personal data from the App.
+InkyTune does not require an InkyTune account. Music generation, playback, and audio processing take place on your device. The App does not include advertising, third-party analytics, cross-app tracking, or online generative AI.
 
-The App does not require an account and does not include advertising, third-party analytics, cross-app tracking, or online generative AI. Music generation and audio processing take place on your device.
+When iCloud is available for InkyTune, saved music projects sync through your Apple Account. Apple provides the iCloud service. The developer does not operate a server that receives or stores your projects.
 
-2. INFORMATION STORED ON YOUR DEVICE
+2. INFORMATION STORED BY THE APP
 
-To provide its features, InkyTune stores the following information locally on your device:
+InkyTune stores music projects on your device. A project may contain its name, drawn melody, notes, arrangement, style, tempo, key, scale, generation settings, track settings, and modification date. The App also stores interface preferences, AUv3 Shared Library presets you choose to save, and temporary audio or MIDI files created during export.
 
-• Music projects, including project names, drawn melody points, notes, chords, bass, drums, arrangement events, style choices, tempo, generation controls, random seeds, track settings, and modification dates.
-• App preferences, such as your selected language and interface settings.
-• Audio Unit preset information that you choose to add to the AUv3 Shared Library.
-• Temporary audio files created during export.
+This information is used to save and restore your work, generate and play music, export files, and support the included Audio Unit extensions.
 
-This information is used only to provide project saving and restoration, music generation, playback, audio export, and Audio Unit integration. It is not transmitted to us or to our servers.
+3. ICLOUD PROJECT SYNC
 
-3. AUDIO UNIT EXTENSIONS AND SHARED LIBRARY
+If iCloud Drive is available to InkyTune, the App automatically stores copies of saved projects in its app-specific iCloud container and syncs them across devices signed in to the same Apple Account. Project changes and deletions sync when the devices are online. If iCloud is unavailable, your projects remain available locally on the device.
 
-Doodle Synth and Doodle FX can run inside compatible third-party Audio Unit host apps. MIDI events, automation values, and audio processed by these extensions remain within the local Audio Unit hosting environment. The extensions do not send this content to us.
+This feature does not automatically sync exported audio or MIDI files, interface preferences, or AUv3 Shared Library presets. Apple handles iCloud storage and transfer under its own terms and privacy policy. The developer does not access your synced project content through a developer-operated service.
 
-When you add a preset to the AUv3 Shared Library, its project name, style, generation controls, random seed, and relevant sound settings are stored in an Apple App Group container shared only by InkyTune and its included extensions on your device.
+You can stop future syncing by disabling iCloud access for InkyTune or iCloud Drive in your device settings, where available. Existing iCloud data can be managed through your Apple Account’s iCloud storage settings.
 
-A third-party host app may independently handle information under its own privacy policy. InkyTune does not control the data practices of those host apps.
+4. AUDIO UNIT EXTENSIONS
 
-4. EXPORTING AND SHARING
+Doodle Synth, Doodle FX, and Doodle MIDI can run inside compatible third-party Audio Unit host apps. Audio, MIDI events, and automation handled by these extensions remain in the local Audio Unit hosting environment. The extensions do not send this content to the developer.
 
-When you export a song, InkyTune creates the selected audio or project file locally. If you choose to share or save that file using Apple’s system share sheet, Files, AirDrop, iCloud Drive, or a third-party app or service, the selected destination may receive and process the file according to its own privacy policy.
+Songs and presets that you add to the AUv3 Shared Library are stored in an Apple App Group container shared by InkyTune and its included extensions on your device. This library is separate from iCloud project sync.
 
-InkyTune does not automatically upload exported files. Sharing occurs only when you initiate it and choose a destination.
+A third-party host app may handle information under its own privacy policy.
 
-5. DATA WE DO NOT COLLECT
+5. EXPORTING AND SHARING
 
-InkyTune does not collect:
+InkyTune creates audio and MIDI exports locally. If you choose to share or save a file using Apple’s share sheet, Files, AirDrop, iCloud Drive, or another app or service, that destination may receive and process the file under its own privacy policy. InkyTune does not automatically upload exported files.
 
-• Names, email addresses, phone numbers, or other contact information.
-• Precise or approximate location.
-• Contacts, photos, camera data, or microphone recordings.
-• Payment or financial information.
-• Advertising identifiers or tracking data.
-• Browsing history, search history, or in-app behavioral analytics collected by InkyTune.
-• Health, fitness, or other sensitive personal information.
+6. DATA COLLECTION
 
-The App does not sell personal data and does not share personal data for advertising or tracking.
+The developer does not collect your project content, contact details, location, contacts, photos, camera data, microphone recordings, payment card details, advertising identifiers, browsing history, or in-app behavioral analytics through the App. InkyTune does not sell data or share it for advertising or tracking.
 
-6. APP STORE AND APPLE SERVICES
+Apple independently handles App Store purchases, downloads, iCloud storage, and other Apple services. Depending on your settings or TestFlight participation, Apple may provide the developer with aggregated App Store metrics or crash and diagnostic reports. InkyTune does not add its own analytics or diagnostic collection service.
 
-Apple may process information relating to downloading, purchasing, updating, or using the App under Apple’s own privacy policies and App Store terms. Depending on your device settings or participation in TestFlight, Apple may provide the developer with aggregated App Store metrics or crash and diagnostic reports. InkyTune does not add its own analytics or diagnostic collection service, and we do not use information supplied by Apple for advertising or tracking.
+7. RETENTION AND DELETION
 
-We do not receive your payment card details from Apple. Information Apple processes independently is governed by Apple’s policies, not this Privacy Policy.
+Local projects and preferences remain on your device until you delete or change them, or uninstall the App. When iCloud sync is available, saved projects may also remain in your iCloud storage.
 
-7. DATA RETENTION AND DELETION
+Deleting a project in InkyTune removes it from the project library and propagates that change to synced devices when they connect. If simultaneous edits conflict, the App may preserve a separate conflict copy so neither version is silently lost. You can delete a conflict copy like any other project.
 
-Your projects and preferences remain on your device until you delete them, reset the relevant setting, or uninstall the App. You can delete individual projects from the project library.
+Uninstalling the App may not remove copies already stored in iCloud. You can delete projects in the App while iCloud sync is available or manage the App’s data in your Apple Account’s iCloud storage settings. Files you previously exported to another destination must be deleted there separately. Apple’s retention and recovery of iCloud data are governed by Apple’s policies.
 
-Removing a project from InkyTune does not delete copies that you previously exported to Files, iCloud Drive, another app, or another device. Those copies must be deleted from their destination separately.
+The developer does not maintain an InkyTune account or a server-side project record to access, correct, export, or delete.
 
-Because InkyTune does not collect or maintain personal data on a developer-operated server, there is no server-side account or personal-data record for us to access, correct, export, or delete.
+8. SECURITY
 
-8. DATA SECURITY
-
-InkyTune relies on Apple’s application sandbox, App Group access controls, and operating-system security protections to keep local app data separated from unrelated apps. No method of storage is completely secure, so you should protect your device with a passcode and keep your operating system up to date.
+InkyTune relies on Apple’s application sandbox, App Group access controls, and operating-system protections for local data. Apple handles iCloud storage and transfer. We recommend protecting your device and Apple Account and keeping your operating system up to date.
 
 9. CHILDREN’S PRIVACY
 
-InkyTune does not knowingly collect personal information from children or from any other users. The App is not designed to request personal information.
+InkyTune does not knowingly collect personal information from children or other users through a developer-operated service. The App is not designed to request personal information.
 
 10. INTERNATIONAL DATA TRANSFERS
 
-InkyTune does not operate a server that receives App data, so the developer does not transfer App data between countries. Transfers you initiate through iCloud, AirDrop, or third-party services are handled by the selected service under its own terms and privacy policy.
+The developer does not operate a server that receives App data. Apple may process iCloud and App Store data under its own terms and privacy policy. Transfers you initiate through third-party services are handled by the selected service.
 
 11. CHANGES TO THIS POLICY
 
-We may update this Privacy Policy when the App’s features or legal requirements change. The revised policy will include a new effective date. If a future version begins collecting data, we will update this policy and the App Store privacy disclosures before or when that change takes effect, as required.
+We may update this Privacy Policy when the App’s features or data practices change. The revised policy will show a new effective date. We will update the relevant App Store privacy disclosures when required.
 
 12. CONTACT
 
-If you have questions about this Privacy Policy or InkyTune’s privacy practices, please contact the developer through the Support URL listed on InkyTune’s App Store product page.
-
-This policy applies to the current version of InkyTune for iOS and iPadOS and its included Doodle Synth and Doodle FX Audio Unit extensions.
+If you have questions about this Privacy Policy or InkyTune’s privacy practices, contact the developer through the Support URL on InkyTune’s App Store product page.
